@@ -7,7 +7,7 @@ services:
     ports:
       - "8069:8069"
     volumes:
-      - ./addons:/var/lib/odoo/addons/16.0
+      - ./addons:/mnt/extra-addons
     environment:
     - HOST=mydb
     - USER=odoo
