@@ -6,8 +6,8 @@ services:
       - mydb
     ports:
       - "8069:8069"
-    volumes:
-      - ./addons/freight_management_system:/addons/freight_management_system
+    #volumes:
+    #  - ./addons/freight_management_system:/addons/freight_management_system
     environment:
     - HOST=mydb
     - USER=odoo
